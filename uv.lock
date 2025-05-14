@@ -977,6 +977,7 @@ temporal = [
 dev = [
     { name = "anthropic" },
     { name = "boto3-stubs", extra = ["bedrock-runtime"] },
+    { name = "httpx" },
     { name = "pre-commit" },
     { name = "pydantic" },
     { name = "pytest" },
@@ -1020,6 +1021,7 @@ provides-extras = ["temporal", "anthropic", "bedrock", "openai", "azure", "googl
 dev = [
     { name = "anthropic", specifier = ">=0.42.0" },
     { name = "boto3-stubs", extras = ["bedrock-runtime"], specifier = ">=1.37.23" },
+    { name = "httpx", specifier = ">=0.28.1" },
     { name = "pre-commit", specifier = ">=4.0.1" },
     { name = "pydantic", specifier = ">=2.10.4" },
     { name = "pytest", specifier = ">=7.4.0" },
